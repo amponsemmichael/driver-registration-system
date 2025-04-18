@@ -88,11 +88,6 @@ cd driver-registration-system
 ./mvnw spring-boot:run
 ```
 
-**Or with Gradle:**
-```bash
-./gradlew bootRun
-```
-
 > Backend runs at `http://localhost:4300`
 
 ---
@@ -101,11 +96,12 @@ cd driver-registration-system
 
 ```bash
 cd frontend
+cd driver_registration_dashboard
 npm install
-npm start
+npm run dev
 ```
 
-> Frontend runs at `http://localhost:3000`
+> Frontend runs at `http://localhost:5173`
 
 ---
 
@@ -122,7 +118,7 @@ npm start
 
 ---
 
-## 🧪 Usage (Postman Examples)
+## 🧪 Usage (Testing Backend With Postman Examples)
 
 ### ✅ Create a Driver
 - **Method:** POST  
@@ -183,7 +179,7 @@ See the LICENSE file for details.
 
 - Java OpenJDK  
 - Spring Boot  
-- React  
+- React + Vite 
 - Contributors to open-source libraries used in this project
 
 ---
