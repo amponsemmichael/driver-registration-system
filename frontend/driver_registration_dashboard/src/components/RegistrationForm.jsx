@@ -76,7 +76,7 @@ const RegistrationForm = () => {
       data.append('document', formData.document);
 
       // API call to register driver
-      const response = await axios.post('http://localhost:8080/api/drivers/register', data);
+      const response = await axios.post('http://localhost:4300/api/drivers/register', data);
       
       // Navigate to dashboard on success
       navigate(`/dashboard/${response.data.id}`);

@@ -11,7 +11,7 @@ const Dashboard = () => {
   useEffect(() => {
     const fetchDriverData = async () => {
       try {
-        const response = await axios.get(`http://localhost:8080/api/drivers/${id}`);
+        const response = await axios.get(`http://localhost:4300/api/drivers/${id}`);
         setDriver(response.data);
       } catch (err) {
         console.error('Error fetching driver data:', err);
