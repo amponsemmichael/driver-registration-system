@@ -24,7 +24,7 @@ A full-stack system for truck driver registration, data management, and document
 
 ## 📌 Overview
 
-The Driver Registration & Dashboard System enables users to register, view, update, and delete truck driver records while managing associated documents. The system supports responsive UI, real-time validation, and a simple, intuitive interface for administrators.
+The Driver Registration & Dashboard System enables users to register and view driver records while managing associated documents. The system supports responsive UI, real-time validation, and a simple, intuitive interface for administrators.
 
 ---
 
@@ -32,9 +32,10 @@ The Driver Registration & Dashboard System enables users to register, view, upda
 
 ### 🚛 CRUD Operations
 - **Create:** Register drivers with optional document upload
-- **Read:** View driver details individually or in a list
-- **Update:** Modify driver info and optionally replace documents
-- **Delete:** Remove driver records
+- **Read:** View driver details individually
+- **Read:** View drivers details in a list (implemented at backend)
+- **Update:** Modify driver info and optionally replace documents(implemented at backend)
+- **Delete:** Remove driver records(implemented at backend)
 
 ### 🧠 Data Validation
 - Prevents duplicate email and phone number entries
@@ -175,6 +176,15 @@ See the LICENSE file for details.
 
 ---
 
+## 🙌 Future Enhancement
+
+- Modify Frontend to perform full crud operation  
+- Add authentication and authorization  
+- Contributors to open-source libraries used in this project
+
+---
+
+
 ## 🙌 Acknowledgments
 
 - Java OpenJDK  
@@ -183,3 +193,4 @@ See the LICENSE file for details.
 - Contributors to open-source libraries used in this project
 
 ---
+
