@@ -104,6 +104,14 @@ npm run dev
 
 > Frontend runs at `http://localhost:5173`
 
+### 🔗 Live Demo
+Check out the live version here: driver-registration-dashboard.netlify.app
+📦 Features
+- Built with Vite for blazing-fast development
+- Fully responsive and optimized for production
+- Hosted on Netlify for seamless deployment
+
+
 ---
 
 ## 🔌 API Endpoints
